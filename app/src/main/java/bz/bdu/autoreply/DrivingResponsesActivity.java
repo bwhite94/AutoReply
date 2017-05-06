@@ -1,5 +1,9 @@
 package bz.bdu.autoreply;
 
+import android.Manifest;
+import android.content.Context;
+import android.location.LocationListener;
+import android.location.LocationManager;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
@@ -13,6 +17,7 @@ public class DrivingResponsesActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_driving_responses);
+
     }
 
 }
