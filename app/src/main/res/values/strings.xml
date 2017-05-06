@@ -5,4 +5,7 @@
     <string name="other_responses_button_text">Other Responses</string>
     <string name="driving_responses_cat1_label">Estimated Time Responses</string>
     <string name="main_intro">Auto Reply is designed to assist you in responding to text messages during specific events automatically.</string>
+    <string name="driving_responses_maps_title">Google Maps</string>
+    <string name="driving_responses_dest_eta_label">Respond with Destination ETA</string>
+    <string name="driving_responses_loc_label">Respond with Location</string>
 </resources>
