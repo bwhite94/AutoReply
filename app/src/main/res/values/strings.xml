@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">AutoReply</string>
+    <string name="app_name">Auto Reply</string>
+    <string name="main_instructions">Customize Responses</string>
+    <string name="driving_responses_button_text">Driving Responses</string>
+    <string name="other_responses_button_text">Other Responses</string>
 </resources>
