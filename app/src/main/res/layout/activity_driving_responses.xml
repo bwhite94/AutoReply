@@ -30,9 +30,10 @@
             <TableRow style="@style/settingsTableRow">
 
                 <Switch
-                    android:id="@+id/switch1"
+                    android:id="@+id/dest_eta_switch"
                     style="@style/settingsSwitch"
-                    android:text="@string/driving_responses_dest_eta_label" />
+                    android:text="@string/driving_responses_dest_eta_label"
+                    android:onClick="updateSettings" />
 
 
             </TableRow>
@@ -40,9 +41,10 @@
             <TableRow style="@style/settingsTableRow">
 
                 <Switch
-                    android:id="@+id/switch2"
+                    android:id="@+id/location_switch"
                     style="@style/settingsSwitch"
-                    android:text="@string/driving_responses_loc_label" />
+                    android:text="@string/driving_responses_loc_label"
+                    android:onClick="updateSettings" />
 
 
             </TableRow>
