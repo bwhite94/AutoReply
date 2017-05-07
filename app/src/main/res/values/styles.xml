@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -29,7 +29,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_weight">1</item>
         <item name="android:gravity">left</item>
-        <item name="android:showText">true</item>
+        <item name="android:showText" tools:targetApi="lollipop">true</item>
         <item name="android:textOff">Off</item>
         <item name="android:textOn">On</item>
     </style>
