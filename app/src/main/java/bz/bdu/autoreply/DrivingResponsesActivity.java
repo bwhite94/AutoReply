@@ -85,6 +85,7 @@ public class DrivingResponsesActivity extends AppCompatActivity {
         }
     }
 
+    // initially load settings and sync switch state to reflect
     public void loadSettings(View view) {
 
         Switch dest_eta_switch = (Switch) findViewById(R.id.dest_eta_switch);
